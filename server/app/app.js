@@ -1,9 +1,9 @@
+var path = require('path')
 var express = require('express');
 var app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+var clientPath = path.resolve(__dirname +  "../../../client/app/")
+app.use(express.static(clientPath));
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
