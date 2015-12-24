@@ -1,0 +1,27 @@
+{
+  "name": "moneywatchserver",
+  "version": "1.0.0",
+  "description": "The node.js server application - Money Watch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasserre/moneywatch.git"
+  },
+  "author": "lasserre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasserre/moneywatch/issues"
+  },
+  "homepage": "https://github.com/lasserre/moneywatch#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-auto-install": "^0.3.0",
+    "grunt-execute": "^0.2.2"
+  }
+}
