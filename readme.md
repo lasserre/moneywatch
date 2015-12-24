@@ -10,4 +10,4 @@
 
 1. Execute `npm install`
 2. Execute `grunt`
-3. Open a browser and go to [localhost:3000](localhost:3000)
+3. Open a browser and go to [http://localhost:3000](http://localhost:3000)
